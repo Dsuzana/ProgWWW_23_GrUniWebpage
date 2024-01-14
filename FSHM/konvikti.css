@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #141e30, #243b55);
+}
+
+header {
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #001f3f;
+}
+
+header p {
+    font-size: 28px;
+    margin: 0;
+}
+
+.campus-info {
+    text-align: center;
+    padding: 20px;
+}
+
+.campus-photo {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: rotate(-2deg); /* Added rotation */
+}
+
+.features {
+    text-align: left;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.features h2 {
+    color: #001f3f;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.round-figures {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.round-figure {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: rotate(2deg); /* Added rotation */
+    transition: transform 0.3s ease-in-out;
+}
+
+.round-figure:hover {
+    transform: scale(1.05) rotate(0deg);
+}
+
+.round-figure h3 {
+    color: #001f3f;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.round-figure p {
+    color: #333;
+}
+
+footer {
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #001f3f;
+}
